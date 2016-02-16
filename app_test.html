@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<style type="text/css">
+</style>
+</head>
+<body ng-app="myTestApp">
+     <!-- <h1>This is Landing Page</h1> -->
+<h1>
+
+</h1>
+<table>
+<tr>
+<th>First Page</th>
+<td>
+<a href="#/first-page"> First page</a>
+</tr>
+<tr>
+<th>Second Page</th>
+<td>
+<a ui-sref="secondPage({message:'From param', to:'Harsha'})"> Second page</a>
+</tr>
+</table>
+
+<ui-view></ui-view>
+
+	<script type="text/javascript" src="jquery/dist/jquery.js"></script>
+	<script src="angular-1.4.6/angular.js"></script>
+	<script type="text/javascript"
+		src="ui-router/release/angular-ui-router.js"></script>
+	<script src="js/app_ui_router_test.js"></script>
+
+	<script src="js/app_ng_router_test.js"></script>
+
+</body>
+</html>
